@@ -36,6 +36,31 @@ def create_project_directory(library_name):
         print(f"❌ Failed to create directory '{library_name}': {e}")
         return False
 
+def copy_library_to_project_directory(library_name):
+    """
+    Moves the <library_name>.py file into the corresponding project directory.
+    Returns:
+        True if moved successfully, False otherwise.
+    """
+    try:
+        current_dir = Path.cwd()
+        source_module_path = current_dir / f"{library_name}.py"
+        project_dir = current_dir / library_name
+        target_module_path = project_dir / f"{library_name}.py"
+
+        if not source_module_path.exists():
+            print(f"⚠️ WARNING: {source_module_path} not found.")
+            return False
+
+        project_dir.mkdir(exist_ok=True)
+        shutil.move(str(source_module_path), str(target_module_path))
+        print(f"✅ Moved {library_name}.py to {project_dir}")
+        return True
+
+    except Exception as e:
+        print(f"❌ Failed to move {library_name}.py: {e}")
+        return False
+
 
 from pathlib import Path
 
