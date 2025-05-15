@@ -71,13 +71,3 @@ To get started with the **Registering Library To Pypi** solution repository, fol
 - ✅ **Educational** Each template includes educational narrative and background context to support learning, teaching, and collaborative development.
 
     
-## List of Figures
- ![additional_image](registering_a_digital_library.png)  <br>![additional_image](registering_library_to_pypi.png)  <br>
-    
-
-## Github https://github.com/JoeEberle/ - Email  josepheberle@outlook.com 
-    
-![Developer](developer.png)
-
-![Brand](brand.png)
-    
