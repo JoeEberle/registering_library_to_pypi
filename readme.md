@@ -4,11 +4,7 @@
 
 ## Register your python libraries to pypi to make them pip and uv installable
 
-    
-![Solution](code.png)
-
-    
-
+    ![Image image_filename](code.png)
 ## 🧠 Registering library to pypi
 The **registering_library_to_pypi** is designed to modularize and accelerate the development of AI driven solutions. 
 
@@ -27,7 +23,7 @@ The **registering_library_to_pypi** is designed to modularize and accelerate the
 
 
 
-Welcome to the solution **Registering Library To Pypi** - an example for your projects
+Welcome to the solution **Registering Library To Pypi** 
 
 Register your python libraries to pypi to make them pip and uv installable
 
@@ -50,13 +46,7 @@ The **registering_library_to_pypi** is designed to modularize and accelerate the
 
 
 <br>
-
-![Solution](code.png)
-
-    
-![Solution](code.png)
-
-    
+![Image image_filename](code.png)![Image image_filename](sample.png)
 ## Getting Started
 
 The goal of this solution is to **Jump Start** your development and have you up and running in 30 minutes. 
